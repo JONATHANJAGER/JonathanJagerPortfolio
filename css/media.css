@@ -81,7 +81,7 @@
 	.body {
 		max-width: 500px;
 		position: relative;
-		height: 1055px;
+		height: 2100px;
 		background: linear-gradient(to bottom right, #4c4c68 0%, #042222 100%);
 		/*filter: drop-shadow(0px 0px 5px black);*/
 		box-shadow: inset 0px 10px 130px -4px #030511;
@@ -191,10 +191,29 @@
 		background-color: green;
 	}
 
+	.port a img {
+	border-radius: 0px;
+	filter: drop-shadow(0px 0px 0px black);
+	object-fit: contain;
+	height: 150px;
+	width: 250px;
+
+	}
+
+	.port h4 {
+		font-size: 35px;
+		margin-bottom: -10px;
+	}
+
+	.port p {
+		font-size: 20px;
+		padding:15px;
+	}
+
 }
 /**************** port layout change **********/
 
-@media (min-width: 600px) {
+@media (min-width: 501px) {
 	.body-two {
 		display: flex;
 	justify-content: space-between;
@@ -275,7 +294,7 @@
 
 	.body {
 		position: relative;
-		height: 875px;
+		height: 1700px;
 		background: linear-gradient(to bottom right, #4c4c68 0%, #042222 100%);
 		box-shadow: inset 0px 10px 130px -4px #030511;
 		z-index: 25;
@@ -339,7 +358,8 @@
 	}
 	
 	.foot ul {
-		top: -18px;
+		top: 30px;
+		padding-left: 18px;
 	}
 
 	.foot img {
@@ -357,8 +377,7 @@
 	.middle h3 {
 		position: relative;
 		font-size: 20px;
-		left: 8%;
-		top: 25px;
+		top: 100px;
 		max-width: 790px;
 	}
 
@@ -381,4 +400,16 @@
 		box-sizing: border-box;
 		background-color: green;
 	} 
+
+	.port h4 {
+		font-size: 35px;
+		margin-bottom: -10px;
+		text-align: center;
+	}
+
+	.port p {
+		font-size: 20px;
+		padding:15px;
+		text-align: center;
+	}
 }
